@@ -4174,8 +4174,7 @@ div#contact {
                                 <li><a HREF='#'>Appliance Manager</a></li>
                             </ul>
                         </li>
-                        <li CLASS=''><a CLASS='page-scroll' HREF='#about'>Benefits</a></li>
-                        <li CLASS=''><a CLASS='page-scroll' HREF='#services'>Services</a></li>
+                        <li CLASS=''><a CLASS='page-scroll' HREF='#services'>Benefits</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#team'>Team</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#testimonials'>Testimonials</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#blog'>Blog</a></li>
@@ -4204,8 +4203,7 @@ div#contact {
                                 <li><a HREF='#'>Appliance Manager</a></li>
                             </ul>
                         </li>
-                      <li CLASS=''><a HREF='/#about'>Benefits</a></li>
-                      <li CLASS=''><a HREF='/#services'>Services</a></li>
+                      <li CLASS=''><a HREF='/#services'>Benefits</a></li>
                       <li CLASS=''><a HREF='/#team'>Team</a></li>
                       <li CLASS=''><a HREF='/#testimonials'>Testimonials</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#blog'>Blog</a></li>
@@ -4295,17 +4293,11 @@ Affordable and budget friendly.</p>
                 </div>
                 <div CLASS='col-sm-4 col-sm-offset-2'>
                     <div CLASS='about-box'>
-                        <div CLASS='box-overlay'/>
 						<!-- About Video URL -->
                         <a CLASS='videopopup' HREF='https://www.youtube.com/watch?v=aJOTlE1K90k'>
 						<!-- About Video Thumbnail -->
                             <img ALT='' SRC='https://lh3.googleusercontent.com/-XgT7fEI8bag/X22fCc-m4ZI/AAAAAAABGxM/GERsatkCy6YiE7B4Z8QB7uwAHDVUTG9UACNcBGAsYHQ/s16000/ezgif.com-video-to-gif.gif'/>
-                            <div CLASS='sonar-wrapper'>
-                                <div CLASS='sonar-emitter'>
-                                    <i CLASS='ion-arrow-right-b'/>
-                                    <div CLASS='sonar-wave'/>
-                              </div>
-                            </div>
+                            
                         </a>
                     </div>
                 </div>
@@ -4319,8 +4311,8 @@ Affordable and budget friendly.</p>
             <div CLASS='row'>
                 <div CLASS='col-sm-12'>
                     <div CLASS='section_title'>
-                        <div CLASS='section_subtitle'>Services</div>
-                        <h2 CLASS='section_main_title'>What We<strong> Do?</strong></h2>
+                        <div CLASS='section_subtitle'> </div>
+                        <h2 CLASS='section_main_title'> <strong> Benefits</strong></h2>
                     </div>
                     <div CLASS='hgt-40'/>
                 </div>
@@ -4333,9 +4325,9 @@ Affordable and budget friendly.</p>
                         <span CLASS='ion-ios-monitor-outline'/>
                         <div CLASS='services-single-item'>
 						<!-- Service Heading -->
-                            <h5 CLASS='services-heading'>WEB DESIGN</h5>
+                            <h5 CLASS='services-heading'>Affordable</h5>
 							<!-- Service Description -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -4343,8 +4335,8 @@ Affordable and budget friendly.</p>
                     <div CLASS='services-item pad-bootom-100'>
                         <span CLASS='ion-ios-crop'/>
                         <div CLASS='services-single-item'>
-                            <h5 CLASS='services-heading'>GRAPHSIC DESIGN</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <h5 CLASS='services-heading'>Retrofitting</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -4353,8 +4345,8 @@ Affordable and budget friendly.</p>
                     <div CLASS='services-item pad-bootom-100'>
                         <span CLASS='ion-ios-camera-outline'/>
                         <div CLASS='services-single-item'>
-                            <h5 CLASS='services-heading'>PHOTOGRAPHY</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <h5 CLASS='services-heading'>Energy &amp; Water Saving</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -4363,8 +4355,8 @@ Affordable and budget friendly.</p>
                     <div CLASS='services-item pad-bootom-100'>
                         <span CLASS='ion-social-buffer-outline'/>
                         <div CLASS='services-single-item'>
-                            <h5 CLASS='services-heading'>CLEAN CODE</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <h5 CLASS='services-heading'>User-friendly</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -4373,8 +4365,8 @@ Affordable and budget friendly.</p>
                     <div CLASS='services-item pad-bootom-100'>
                         <span CLASS='ion-ios-flask-outline'/>
                         <div CLASS='services-single-item'>
-                            <h5 CLASS='services-heading'>PROGRESS AND ACCORDIANS</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <h5 CLASS='services-heading'>Low Maintenance</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -4383,12 +4375,35 @@ Affordable and budget friendly.</p>
                     <div CLASS='services-item pad-bootom-100'>
                         <span CLASS='ion-ios-time-outline'/>
                         <div CLASS='services-single-item'>
-                            <h5 CLASS='services-heading'>24/7 Support</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <h5 CLASS='services-heading'>Low Man power</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
 
+              
+                <div CLASS='col-sm-4'>
+                    <div CLASS='services-item pad-bootom-100'>
+                        <span CLASS='ion-ios-time-outline'/>
+                        <div CLASS='services-single-item'>
+                            <h5 CLASS='services-heading'>Comfortable and Relaxed</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+              
+              
+                <div CLASS='col-sm-4'>
+                    <div CLASS='services-item pad-bootom-100'>
+                        <span CLASS='ion-ios-time-outline'/>
+                        <div CLASS='services-single-item'>
+                            <h5 CLASS='services-heading'>Safety &amp; Security</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+              
+              
             </div>
         </div>
     </section>
@@ -4440,7 +4455,7 @@ Affordable and budget friendly.</p>
         <div CLASS='container'>
             <div CLASS='row'>
 			<!-- TEAM Section -->
-                <div CLASS='col-sm-6'>
+                <div CLASS='col-sm-12'>
                     <div CLASS='section_title'>
                         <div CLASS='section_subtitle'>TEAM</div>
 						<!-- Title -->
@@ -4451,31 +4466,7 @@ Affordable and budget friendly.</p>
                         <p> A perfect duo of young enthusiastic from NICMARs and industry experts. We are growing very fast in the field of Home Automation Services , having around us all industry experts from different fields right from Business, Software, Manufacturing, Marketing and content creators.</p>
                     </div>
                 </div>
-                <div CLASS='col-sm-6'>
-                    <div id='skills'>
-                        <div CLASS='skillbar' data-percent='95%'>
-						<!-- Skills Title -->
-						<!-- Skills Percentage -->
-                            <div CLASS='skillbar-title'>Photography <span CLASS='pull-right skill-bar-percent'>95%</span></div>
-                            <div CLASS='skillbar-bar'/>
-                        </div>
-
-                        <div CLASS='skillbar ' data-percent='85%'>
-                            <div CLASS='skillbar-title'>Videography <span CLASS='pull-right skill-bar-percent'>85%</span></div>
-                            <div CLASS='skillbar-bar'/>
-                        </div>
-                        <div CLASS='skillbar clearfix' data-percent='75%'>
-                            <div CLASS='skillbar-title'>WEB DESIGN <span CLASS='pull-right skill-bar-percent'>75%</span></div>
-                            <div CLASS='skillbar-bar'/>
-
-                        </div>
-                        <div CLASS='skillbar clearfix' data-percent='60%'>
-                            <div CLASS='skillbar-title'>Illustrator <span CLASS='pull-right skill-bar-percent'>60%</span></div>
-                            <div CLASS='skillbar-bar'/>
-
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             <div CLASS='hgt-80'/>
             <div CLASS='row1' style='     margin: auto;     height: 350px;     max-width: 999px;'>
