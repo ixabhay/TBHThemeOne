@@ -3531,7 +3531,7 @@ h1.static-title {
     text-transform: capitalize;
 }
  .main-wrapper{
-     margin-right:350px 
+    // margin-right:350px 
 }
  .outer-wrapper {
      position: relative;
@@ -4165,13 +4165,13 @@ div#contact {
 					<b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
 <b:widget id='Header1' locked='true' title='The Brainy Homes (Header)' type='Header' version='1'>
   <b:widget-settings>
-    <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-s6NDKjJvLXc/X19hTbrr9LI/AAAAAAABGjc/uOgc3aQ4pCcWAgPb2fLvWv6h23gMJB2_gCPcBGAYYCw/s342/logoWhite.png</b:widget-setting>
+    <b:widget-setting name='displayUrl'>http://2.bp.blogspot.com/-OVllcM9tjVc/X3SYQ7584dI/AAAAAAABG3o/DY7ZbSdziD82s8HaPUHS8T3qj-LmigeZwCK4BGAYYCw/s1613/logoHorizontalWHITEsmall.png</b:widget-setting>
     <b:widget-setting name='displayHeight'>60</b:widget-setting>
-    <b:widget-setting name='sectionWidth'>754</b:widget-setting>
+    <b:widget-setting name='sectionWidth'>1613</b:widget-setting>
     <b:widget-setting name='useImage'>true</b:widget-setting>
     <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
     <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-    <b:widget-setting name='displayWidth'>342</b:widget-setting>
+    <b:widget-setting name='displayWidth'>200</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
 								  <b:if cond='data:useImage'>
@@ -4206,7 +4206,7 @@ div#contact {
 									  <b:else/>
 									  <!--Show the image only-->
 									  <div id='header-inner'>
-										<a expr:href='data:blog.homepageUrl' style='display: block;margin-top: 15px;'>
+										<a expr:href='data:blog.homepageUrl' style='display: block;margin-top: 25px;'>
 										  <img expr:alt='data:title' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' style='display: block'/>
 										</a>
 										<!--Show the description-->
@@ -4292,7 +4292,7 @@ div#contact {
                       <li CLASS=''><a HREF='/#services'>Benefits</a></li>
                       <li CLASS=''><a HREF='/#team'>Team</a></li>
                       <li CLASS=''><a HREF='/#testimonials'>Testimonials</a></li>
-                        <li CLASS=''><a CLASS='page-scroll' HREF='#blog'>Blog</a></li>
+                        <li CLASS=''><a CLASS='page-scroll' HREF='/#blog'>Blog</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#contact'>Contact</a></li>
                         <li CLASS=''><a HREF='/#faq'>FAQ</a></li>
                       
@@ -4312,10 +4312,11 @@ div#contact {
                     <div CLASS='table-cell'>
 						<div CLASS='row'>
 							<div CLASS='col-sm-4' style='background-color: #000000a8; padding: 25px;'>
+                              <h1 align='center' style='color: #ffffffa8;'>THE BRAINY HOMES</h1>
 							<!-- Header Name --><!-- Headline -->
-								<p>Enough of you taking care of your home now,let your home think.
-Combination of technology and aesthetics, recreating the high-tech human living space by making it a Smart Home. Making your home smart, secure and efficient.
-Hallelujah! Your home turned into a smart home by the magic wand of TBH. Not a luxury,but a need now.
+								<p align='center'>Enough of you taking care of your home.Now let your home think.Combination of technology and aesthetics.We are here to recreate the high-tech human living space by making it a &#39;Smart Home&#39;
+TBH,is making your home smart,secure and efficient.Hallelujah!You home turned into a Smart Home by our magic wand.
+Not a luxury , but a need now.
 Affordable and budget friendly.</p>
 							</div>
                           
@@ -4397,7 +4398,7 @@ Affordable and budget friendly.</p>
             <div CLASS='row'>
                 <div CLASS='col-sm-6'>
                     <div CLASS='section_title'>
-                        <div CLASS='section_subtitle'>About Us</div>
+                        <div CLASS='section_subtitle'>About</div>
 						<!-- About Title -->
                       <!--  <h2 CLASS='section_main_title'>WE ARE<strong> CREATIVE</strong></h2>-->
                     </div>
@@ -4554,7 +4555,7 @@ Affordable and budget friendly.</p>
                     <div CLASS='counter-item'>
                         <span CLASS='ion-coffee'/>
                         <h3 CLASS='counter'>2136</h3>
-                        <p>CUP OF COFFIE</p>
+                        <p>CUP OF COFFEE</p>
                     </div>
                 </div>
 
@@ -4829,45 +4830,7 @@ Affordable and budget friendly.</p>
 
         </div>
     </section>
-	
-	
-    <!--====== Brand ======-->
-    <div CLASS='brand_carousel text-center'>
-	<!-- BRAND Section -->
-        <div CLASS='brand_img'>
-		<!-- Brand Image -->
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-yzilvJoKsQQ/XAARW36oa9I/AAAAAAAAA5s/0q45pzaTewUpa35NM-l2fgNuL13yiUvTQCLcBGAs/s1600/brand1.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-Ln4A4wBuazo/XAARX3T57ZI/AAAAAAAAA54/778IcMpSg6wo9TH7_TLgvJaFYeXuxGdtwCLcBGAs/s1600/brand2.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-YqIgNI9BT4Y/XAARX8chI_I/AAAAAAAAA58/A-kC2zZQOs4Z3VR34hmL7G_zIeAkcvvTwCLcBGAs/s1600/brand3.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-ywNkhnpKWZA/XAARYGkDPfI/AAAAAAAAA6A/wILGNeH8cnMEfW7MDkWnttp-G9nb9mrKQCLcBGAs/s1600/brand4.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-ztbh1aMsbb4/XAARYyQFbcI/AAAAAAAAA6E/3Z7diDREGPkqBx2Q1m7icLL1DiRUnGjHgCLcBGAs/s1600/brand5.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-yzilvJoKsQQ/XAARW36oa9I/AAAAAAAAA5s/0q45pzaTewUpa35NM-l2fgNuL13yiUvTQCLcBGAs/s1600/brand1.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-Ln4A4wBuazo/XAARX3T57ZI/AAAAAAAAA54/778IcMpSg6wo9TH7_TLgvJaFYeXuxGdtwCLcBGAs/s1600/brand2.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-YqIgNI9BT4Y/XAARX8chI_I/AAAAAAAAA58/A-kC2zZQOs4Z3VR34hmL7G_zIeAkcvvTwCLcBGAs/s1600/brand3.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-ywNkhnpKWZA/XAARYGkDPfI/AAAAAAAAA6A/wILGNeH8cnMEfW7MDkWnttp-G9nb9mrKQCLcBGAs/s1600/brand4.png'/>
-        </div>
-        <div CLASS='brand_img'>
-            <img ALT='' SRC='https://lh3.googleusercontent.com/-ztbh1aMsbb4/XAARYyQFbcI/AAAAAAAAA6E/3Z7diDREGPkqBx2Q1m7icLL1DiRUnGjHgCLcBGAs/s1600/brand5.png'/>
-        </div>
-    </div>
-              
-              
+	     
               
     <!--====== FAQ ======-->
     <section class='section-padding services-section' id='faq'>
@@ -4889,9 +4852,9 @@ Affordable and budget friendly.</p>
                         <span CLASS='ion-ios-monitor-outline'/>
                         <div CLASS='services-single-item'>
 						<!-- Service Heading -->
-                            <h5 CLASS='services-heading'>Example Question?</h5>
+                            <h5 CLASS='services-heading'>Are smart homes affordable?</h5>
 							<!-- Service Description -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <p>Yes , smart homes are affordable. However , there was a time when smart homes were considered a luxury. Setting up your smart home is easier than ever but choosing the right home system to unify your devices and get them talking together is the biggest challenge that a homeowner faces today. Know how you can benefit from turning your house into a smart home , this helps zero-in on the right product.</p>
                         </div>
                     </div>
                 </div>
@@ -4902,9 +4865,12 @@ Affordable and budget friendly.</p>
                         <span CLASS='ion-ios-monitor-outline'/>
                         <div CLASS='services-single-item'>
 						<!-- Service Heading -->
-                            <h5 CLASS='services-heading'>Example Question?</h5>
+                            <h5 CLASS='services-heading'>Is home automation worth it?</h5>
 							<!-- Service Description -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <p>Home automation is mostly a good investment as it helps in saving money and time. The following benefits will help you understand why home automation devices and systems are worth the investment.
+Security : Home automation delivers security and safety , helping you to lead a stress-free lifestyle. This is true because once you start using these home automation devices you&#39;ll realize that you can relax as an alert will be sent if anything strange occurs in your house. Whether burglars or unwanted guests , these automation devices will alert you when these individuals approach your house. 
+Financial Savings : Some home automation systems save you money on water bills and utilities . For instance , a smart thermostat and sprinkler system guarantee that your electricity bills do not shoot up in the summer. 
+Comfort : Home automation is a good investment as it prevents you from rushing around in the morning and getting all stressed when trying to get the lights turned off before you leave home and also when trying to get the thermostat set. These devices are so comforting because if you forget to turn off before you leave home and also when trying to get the thermostat set . These devices are so comforting because if you forget to turn off the coffee pot ,these devices will monitor the situation and automatically turn it off for you. </p>
                         </div>
                     </div>
                 </div>
@@ -4915,12 +4881,83 @@ Affordable and budget friendly.</p>
                         <span CLASS='ion-ios-monitor-outline'/>
                         <div CLASS='services-single-item'>
 						<!-- Service Heading -->
-                            <h5 CLASS='services-heading'>Example Question?</h5>
+                            <h5 CLASS='services-heading'>What are the benefits of home automation ?</h5>
 							<!-- Service Description -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
+                            <p>The first and foremost reason to buy a home automation system is for comfort and security. The other benefits that the homeowner gets to enjoy are the convenience , remote access , savings , and peace of mind. A few home automation systems have become more accessible and advanced , that the homeowners across the country are upgrading their homes. </p>
                         </div>
                     </div>
                 </div>
+              
+              
+              
+              
+              
+              
+              <div CLASS='col-sm-12'>
+                    <div CLASS='services-item pad-bootom-100'>
+					<!-- Service Icon -->
+                        <span CLASS='ion-ios-monitor-outline'/>
+                        <div CLASS='services-single-item'>
+						<!-- Service Heading -->
+                            <h5 CLASS='services-heading'>Which devices are most commonly controlled in a smart home?</h5>
+							<!-- Service Description -->
+                            <p>There are a variety of devices and appliances that get connected and controlled in a smart home setup . The most common ones fall into four categories , and they are lighting , climate control , entertainment and security. </p>
+                        </div>
+                    </div>
+                </div>
+              
+              
+              
+              
+              
+              <div CLASS='col-sm-12'>
+                    <div CLASS='services-item pad-bootom-100'>
+					<!-- Service Icon -->
+                        <span CLASS='ion-ios-monitor-outline'/>
+                        <div CLASS='services-single-item'>
+						<!-- Service Heading -->
+                            <h5 CLASS='services-heading'>Is the smart home system complicated to use?</h5>
+							<!-- Service Description -->
+                            <p>A smart home automation system let&#39;s technology take care of your home and business . In just few clicks , life is made easy and every device connected to the home automation system can be controlled through a remote or an app installed on a smartphone or tablet. For instance -if you are going out , you can press &#39;Away&#39; and all the activities programmed while in Away mode is made to control instantly-it locks the doors , turns of the lights and other devices that has to be turned off , etc. </p>
+                        </div>
+                    </div>
+                </div>
+              
+              
+              
+              
+              <div CLASS='col-sm-12'>
+                    <div CLASS='services-item pad-bootom-100'>
+					<!-- Service Icon -->
+                        <span CLASS='ion-ios-monitor-outline'/>
+                        <div CLASS='services-single-item'>
+						<!-- Service Heading -->
+                            <h5 CLASS='services-heading'>Do we need an internet connection on our phone?</h5>
+							<!-- Service Description -->
+                            <p>Internet connection is required on the phone to control the devices from outside your home.</p>
+                        </div>
+                    </div>
+                </div>
+               
+              
+              
+              
+              
+              <div CLASS='col-sm-12'>
+                    <div CLASS='services-item pad-bootom-100'>
+					<!-- Service Icon -->
+                        <span CLASS='ion-ios-monitor-outline'/>
+                        <div CLASS='services-single-item'>
+						<!-- Service Heading -->
+                            <h5 CLASS='services-heading'>What if my internet is down?</h5>
+							<!-- Service Description -->
+                            <p>You can still control devices from your phone , locally ( when your phone is connected to the same WiFi network)</p>
+                        </div>
+                    </div>
+                </div>
+               
+              
+              
                
             </div>
         </div>
