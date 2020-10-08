@@ -1610,7 +1610,8 @@ form.search-form i.search_submit_icon {
         font-size: 60px !important;
     }
 }
-@media only screen and (max-width: 480px) {
+/*--------------------------For better nav menu------------------------------*/
+@media only screen and (max-width: 768px) {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height:400px;
     }
@@ -1674,7 +1675,7 @@ form.search-form i.search_submit_icon {
 		background-color: #fff;
 	}
 	.top-nav-collapse .navbar-toggle .icon-bar {
-		background-color: #222;
+		background-color: #FFF;
 	}
 	.navbar-default .navbar-toggle:focus,
 	.navbar-default .navbar-toggle:hover {
@@ -1682,7 +1683,7 @@ form.search-form i.search_submit_icon {
 	}
 	.navbar-default .navbar-collapse,
 	.navbar-default .navbar-form {
-		background: #f8f8f8;
+		background: #00000E;
 		text-align: left;
 		width: 100%;
 		margin: 0 auto;
@@ -1702,7 +1703,7 @@ form.search-form i.search_submit_icon {
 		font-size: 15px;
 	}
 	.dropdown.open {
-		background: #eee;
+		background: #0e0e0e;
 	}
 	.about-box {
 		width: 80%;
@@ -2830,6 +2831,325 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 .swap-on-hover:hover > .tickerhide {
   color: #fff;
 }
+
+
+
+
+/* START for slider in about */
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:900");
+/**
+  * style variables
+*/
+/**
+  * Control & indicator mixin
+*/
+.carousel {
+  height: 500px;
+  width: 400px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  list-style: none;
+/**
+  * Where the magic happens
+  */
+/**
+    * Control element - right/left arrows
+  */
+/**
+    * Element for holding slide indicators
+  */
+/**
+    * Indicator for indicating active slide
+  */
+/**
+    * Create rules for when slides are contained within a track
+  */
+}
+.carousel__controls,
+.carousel__activator {
+  display: none;
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__track {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__slide:nth-of-type(1) {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__controls:nth-of-type(1) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(1):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(1) {
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__track {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__slide:nth-of-type(2) {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__controls:nth-of-type(2) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(2):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__track {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__slide:nth-of-type(3) {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(3) {
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__track {
+  -webkit-transform: translateX(-300%);
+          transform: translateX(-300%);
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__slide:nth-of-type(4) {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__track {
+  -webkit-transform: translateX(-400%);
+          transform: translateX(-400%);
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__slide:nth-of-type(5) {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__controls:nth-of-type(5) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(5) {
+  opacity: 1;
+}
+.carousel__control {
+  height: 30px;
+  width: 30px;
+  margin-top: -15px;
+  top: 50%;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  border-width: 5px 5px 0 0;
+  border-style: solid;
+  border-color: #fafafa;
+  opacity: 0.35;
+  outline: 0;
+  z-index: 3;
+}
+.carousel__control:hover {
+  opacity: 1;
+}
+.carousel__control--backward {
+  left: 10px;
+  top: 90%;
+background-image: url(https://careers.airbnb.com/wp-content/themes/onboard/resources/assets/images/core-value-arrow.svg);
+    background-repeat: no-repeat;
+	-webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.carousel__control--forward {
+  left: 75px;
+  top: 90%;
+background-image: url(https://careers.airbnb.com/wp-content/themes/onboard/resources/assets/images/core-value-arrow.svg);
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel__indicators {
+    display: none;
+  }
+}
+
+.carousel__indicators {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel__indicator {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  display: inline-block;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.35;
+  margin: 0 2.5px 0 2.5px;
+}
+.carousel__indicator:hover {
+  opacity: 0.75;
+}
+.carousel__track {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: -webkit-transform 0.5s ease 0s;
+  transition: -webkit-transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s;
+  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+.carousel__track .carousel__slide {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.carousel__track .carousel__slide:nth-of-type(1) {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+.carousel__track .carousel__slide:nth-of-type(2) {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.carousel__track .carousel__slide:nth-of-type(3) {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+.carousel__track .carousel__slide:nth-of-type(4) {
+  -webkit-transform: translateX(300%);
+          transform: translateX(300%);
+}
+.carousel__track .carousel__slide:nth-of-type(5) {
+  -webkit-transform: translateX(400%);
+          transform: translateX(400%);
+}
+.carousel--scale .carousel__slide {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.carousel__slide {
+  height: 100%;
+  position: absolute;
+  overflow-y: auto;
+  opacity: 0;
+}
+/**
+  * Theming
+*/
+* {
+  box-sizing: border-box;
+}
+.carousel-container {
+  display: inline-block;
+}
+.my-carousel {
+  border-radius: 5px;
+  margin: 30px;
+}
+.carousel__slide {
+  overflow: hidden;
+}
+.carousel--thumb .carousel__indicator {
+  height: 30px;
+  width: 30px;
+}
+.carousel__indicator {
+  background-color: #fafafa;
+}
+.carousel__slide:nth-of-type(1),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
+  background-image: url("https://1.bp.blogspot.com/-Kh8X_oxc0DY/X3zugI7ipZI/AAAAAAABHEI/WB0UFMnK63Y8HuwHQKV6S2efFBZJHh60QCNcBGAsYHQ/s1073/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.carousel__slide:nth-of-type(2),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  background-image: url("https://1.bp.blogspot.com/-Kh8X_oxc0DY/X3zugI7ipZI/AAAAAAABHEI/WB0UFMnK63Y8HuwHQKV6S2efFBZJHh60QCNcBGAsYHQ/s1073/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.carousel__slide:nth-of-type(3),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
+  background-image: url("https://1.bp.blogspot.com/-Kh8X_oxc0DY/X3zugI7ipZI/AAAAAAABHEI/WB0UFMnK63Y8HuwHQKV6S2efFBZJHh60QCNcBGAsYHQ/s1073/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+
+/* END for slider in about */
+
+
+
+
+
 
 ]]></b:skin>
 
@@ -4262,6 +4582,7 @@ div#contact {
                         </li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#services'>Benefits</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#team'>Team</a></li>
+                        <li CLASS=''><a CLASS='page-scroll' HREF='https://www.thebrainyhomes.com/p/career.html'>Career</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#testimonials'>Testimonials</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#blog'>Blog</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#contact'>Contact</a></li>
@@ -4291,6 +4612,7 @@ div#contact {
                         </li>
                       <li CLASS=''><a HREF='/#services'>Benefits</a></li>
                       <li CLASS=''><a HREF='/#team'>Team</a></li>
+                      <li CLASS=''><a HREF='https://www.thebrainyhomes.com/p/career.html'>Career</a></li>
                       <li CLASS=''><a HREF='/#testimonials'>Testimonials</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='/#blog'>Blog</a></li>
                         <li CLASS=''><a CLASS='page-scroll' HREF='#contact'>Contact</a></li>
@@ -4314,7 +4636,7 @@ div#contact {
 							<div CLASS='col-sm-4' style='background-color: #000000a8; padding: 25px;'>
                               <h1 align='center' style='color: #ffffffa8;'>THE BRAINY HOMES</h1>
 							<!-- Header Name --><!-- Headline -->
-								<p align='center'>Enough of you taking care of your home.Now let your home think.Combination of technology and aesthetics.We are here to recreate the high-tech human living space by making it a &#39;Smart Home&#39;
+								<p align='center' style='width: 100%;'>Enough of you taking care of your home.Now let your home think.Combination of technology and aesthetics.We are here to recreate the high-tech human living space by making it a &#39;Smart Home&#39;
 TBH,is making your home smart,secure and efficient.Hallelujah!You home turned into a Smart Home by our magic wand.
 Not a luxury , but a need now.
 Affordable and budget friendly.</p>
@@ -4323,35 +4645,35 @@ Affordable and budget friendly.</p>
                           
                           
                           
-                          <div CLASS='col-sm-1' style='margin-top: 200px;padding: 25px;'>
+                          <div CLASS='col-sm-1' style='margin-top: 200px;padding: 25px;width: 10%;'>
 							<figure class='swap-on-hover'>
                                 <div class='tickerhide'>LIGHTING</div>
  								<img class='swap-on-hover__front-image' src='https://lh3.googleusercontent.com/-pffZ2SXJ3S8/X22iqUwlyJI/AAAAAAABGxY/QAKl90tjfYc8CYl0MeWx6_wI4W99hklhwCNcBGAsYHQ/lighting-white.png'/>
   								<img class='swap-on-hover__back-image' src='https://1.bp.blogspot.com/-wx2ght5cBmI/X23XaKbQstI/AAAAAAABGyk/MaYfCx3kTGgs0PqFd7epWg7BRi4lvpJvQCNcBGAsYHQ/s60/lighting-yellow.png'/>
 							</figure>
 							</div>
-                          <div CLASS='col-sm-1' style='margin-top: 100px;padding: 25px;'>
+                          <div CLASS='col-sm-1' style='margin-top: 100px;padding: 25px;width: 10%;'>
 							<figure class='swap-on-hover'>
                                 <div class='tickerhide'>APPLIANCES</div>
  								<img class='swap-on-hover__front-image' src='https://lh3.googleusercontent.com/-OOFlTYFWIGk/X28xxXA_cYI/AAAAAAABGy4/7ThzTkOlVuYUeTt8tkmzzhFCZi9Xcb8pACNcBGAsYHQ/appliances-white.png'/>
   								<img class='swap-on-hover__back-image' src='https://lh3.googleusercontent.com/-Z3-yn2oix5c/X28xxROqPpI/AAAAAAABGy0/kOrIXl1GG-87jSfUFqdgDi9jY34v2EaxACNcBGAsYHQ/appliances-yellow.png'/>
 							</figure>
 							</div>
-                          <div CLASS='col-sm-1' style='margin-top: 200px;padding: 25px;'>
+                          <div CLASS='col-sm-1' style='margin-top: 200px;padding: 25px;width: 10%;'>
 							<figure class='swap-on-hover'>
                                 <div class='tickerhide'>CLIMATE<br/>CONTROL</div>
  								<img class='swap-on-hover__front-image' src='https://lh3.googleusercontent.com/-WYHekp4BDdA/X28xxugvrRI/AAAAAAABGzM/rQ9deevVZ9kK97ovk7sewG-tycQB5_kHgCNcBGAsYHQ/climate-white.png'/>
   								<img class='swap-on-hover__back-image' src='https://lh3.googleusercontent.com/-LLYCwcFnq7E/X28xxe_u1DI/AAAAAAABGy8/cH9FnLIFzvkFU2SE-X4Gv7CimZOG5PabQCNcBGAsYHQ/climate-yellow.png'/>
 							</figure>
 							</div>
-                          <div CLASS='col-sm-1' style='margin-top: 100px;padding: 25px;'>
+                          <div CLASS='col-sm-1' style='margin-top: 100px;padding: 25px;width: 10%;'>
 							<figure class='swap-on-hover'>
                                 <div class='tickerhide'>ENTERTAINMENT</div>
  								<img class='swap-on-hover__front-image' src='https://lh3.googleusercontent.com/-DIun3j536ew/X28xx0lBeBI/AAAAAAABGzQ/Nb17Gx8vc8AgXOeq_Dc7fqPfadQ74K17ACNcBGAsYHQ/entertainment-white.png'/>
   								<img class='swap-on-hover__back-image' src='https://lh3.googleusercontent.com/-t5pN5QCj7Fs/X28xyJSdBpI/AAAAAAABGzI/BuSbVxajImQrGWql98xrzlKNBW76hNl-QCNcBGAsYHQ/entertainment-yellow.png'/>
 							</figure>
 							</div>
-                          <div CLASS='col-sm-1' style='margin-top: 200px;padding: 25px;'>
+                          <div CLASS='col-sm-1' style='margin-top: 200px;padding: 25px;width: 10%;'>
 							<figure class='swap-on-hover'>
                               	<div class='tickerhide'>SECURITY</div>
  								<img class='swap-on-hover__front-image' src='https://lh3.googleusercontent.com/-PEjupczrYzE/X28xxqwrlTI/AAAAAAABGzA/XwN9VbbKyfQBPsk3TBa7fRyIWqXcKqxwgCNcBGAsYHQ/security-white.png'/>
@@ -4525,48 +4847,6 @@ Affordable and budget friendly.</p>
                 </div>
               
               
-            </div>
-        </div>
-    </section>
-	
-    <!--====== Happy Clints ======-->
-    <section class='section-padding-small dark-bg'>
-        <div CLASS='container'>
-            <div CLASS='row text-center'>
-			<!-- COUNTER -->
-                <div CLASS='col-sm-3'>
-                    <div CLASS='counter-item'>
-                        <span CLASS='ion-android-happy'/>
-                        <h3 CLASS='counter'>1254</h3>
-						<!-- Counter Heading -->
-                        <p>HAPPY CLIENTS</p>
-                    </div>
-                </div>
-
-                <div CLASS='col-sm-3'>
-                    <div CLASS='counter-item'>
-                        <span CLASS='ion-android-checkbox-outline'/>
-                        <h3 CLASS='counter'>1424</h3>
-                        <p>COMPLETE PROJECT</p>
-                    </div>
-                </div>
-
-                <div CLASS='col-sm-3'>
-                    <div CLASS='counter-item'>
-                        <span CLASS='ion-coffee'/>
-                        <h3 CLASS='counter'>2136</h3>
-                        <p>CUP OF COFFEE</p>
-                    </div>
-                </div>
-
-                <div CLASS='col-sm-3'>
-                    <div CLASS='counter-item'>
-                        <span CLASS='ion-trophy'/>
-                        <h3 CLASS='counter'>15</h3>
-                        <p>AWARDS</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
